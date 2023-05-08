@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato";
+	color: #000000;
+	background-color: #ffffff;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page__one {
+	margin-top: 25px;
+}
+
+.head__container {
+	margin-top: 25px;
+}
+.head__title {
+	font-size: 30px;
+}
+.head__subtitle {
+	font-size: 20px;
+}
+.list {
+	list-style-type: circle;
+}
+
+.head__input {
+}
+.input__container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 15px;
+}
+.head__input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.input label {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.input input[type="date"],
+.input input[type="number"] {
+	padding: 8px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+#check-btn {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+#check-btn:hover {
+	background-color: #3e8e41;
+}
+
+#result {
+	font-size: 1.2em;
+	font-weight: bold;
+}

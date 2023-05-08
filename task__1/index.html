@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>task_2</title>
+</head>
+
+<body>
+	<div class="head__container">
+		<div class="head__title">
+			<h1>Задача 2</h1>
+		</div>
+		<div class="head__subtitle">
+			<h6>Дано дата виробництва йогурта (вводимо рік, місяць, день) та кількість днів придатності. Визначити чи є
+				він придатним на
+				даний момент.
+			</h6>
+		</div>
+		<div class="head__input input">
+			<label for="production-date-input">Дата виорбництва:</label>
+			<input type="date" id="production-date-input"><br>
+
+			<label for="shelf-life-input">Термін зберігання (дні):</label>
+			<input type="number" id="shelf-life-input" min="1" max="365"><br>
+
+			<button id="check-btn" onclick="checkYogurt()">Перевірити придатність</button>
+
+			<p id="result"></p>
+
+			<script src="js/script.js"></script>
+		</div>
+</body>
+
+</html>
